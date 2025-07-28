@@ -31,29 +31,40 @@ package.json
   "email": "test@example.com",
   "password": "test1234"
 }
+```json
 
 ✅ Login
 POST /api/auth/login
 
 Body:
+
+```json
 {
   "email": "test@example.com",
   "password": "test1234"
 }
+```json
+
 Returns:
+```json
 {
   "token": "JWT_TOKEN_HERE"
 }
+```json
 
 🔒 Protected Route
 ➕ Create Product
+
 POST /products
+
 Headers:
 Authorization: Bearer <token>
 Body:
+```json
 {
   "name": "Wireless Headphones",
   "price": 1299
 }
+```json
 
 Submitted By  https://github.com/suga-25
