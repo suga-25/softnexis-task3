@@ -35,7 +35,6 @@ POST /api/auth/login
 }
 Returns:
 
-json
 {
   "token": "JWT_TOKEN_HERE"
 }
@@ -52,4 +51,5 @@ Body:
   "name": "Wireless Headphones",
   "price": 1299
 }
+
 Submitted By suga-25
