@@ -35,8 +35,9 @@ package.json
   "email": "test@example.com",
   "password": "test1234"
 }
-✅ Login
-POST /api/auth/login
+
+ ✅ Login
+ POST /api/auth/login
 
 Body:
 {
@@ -44,21 +45,21 @@ Body:
   "password": "test1234"
 }
 
-Returns:
+ Returns:
 {
   "token": "JWT_TOKEN_HERE"
 }
 
-🔒 Protected Route
-➕ Create Product
-POST /products
+ 🔒 Protected Route
+ ➕ Create Product
+ POST /products
 
-Headers:
-Authorization: Bearer <token>
-Body:
+ Headers:
+ Authorization: Bearer <token>
+ Body:
 {
   "name": "Wireless Headphones",
   "price": 1299
 }
 
-Submitted By suga-25
+ Submitted By suga-25
