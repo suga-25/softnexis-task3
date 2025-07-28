@@ -16,40 +16,44 @@ routes/
 server.js
 package.json
 .gitignore
+
 ---
+
 ## 🔐 Authentication Routes
 
-### ✅ Register
+### ✅ Register  
 `POST /api/auth/register`
+
+**Body:**
 
 ```json
 {
   "email": "test@example.com",
   "password": "test1234"
 }
+
 ✅ Login
 POST /api/auth/login
+
+Body:
 {
   "email": "test@example.com",
   "password": "test1234"
 }
 Returns:
-
 {
   "token": "JWT_TOKEN_HERE"
 }
+
 🔒 Protected Route
 ➕ Create Product
-
 POST /products
-
-Header:
+Headers:
 Authorization: Bearer <token>
-
 Body:
 {
   "name": "Wireless Headphones",
   "price": 1299
 }
 
-Submitted By suga-25
+Submitted By  https://github.com/suga-25
